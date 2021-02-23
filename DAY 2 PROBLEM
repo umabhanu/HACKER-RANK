@@ -1,0 +1,30 @@
+import java.util.*;
+class solution11
+{
+  public static void main(String args[])
+  {
+    solution11 s=new solution11();
+    Scanner scan=new Scanner(System.in);
+    int i,i2;
+    double d1,d2;
+    System.out.println("enter string 1");
+    String str1=scan.nextLine();
+    System.out.println("enter string 2");
+    String str2=scan.nextLine();
+    System.out.println("enter integer value");
+    i=scan.nextInt();
+    System.out.println("enter integer value");
+    i2=scan.nextInt();
+    System.out.println("enter double value");
+    d1=scan.nextDouble();
+    System.out.println("enter double value");
+    d2=scan.nextDouble();
+    String str3=str1.concat(str2);
+    System.out.println("combined string is" + str3);
+    System.out.println("sum of double value" +(d1+d2));
+     System.out.println("sum of int value" +(i+i2));
+   }
+}
+    
+   
+    
